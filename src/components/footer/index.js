@@ -1,22 +1,25 @@
-import './footer.module.css'
+
 const Footer = () => {
     return (
         <footer className='hero-foot center' style={{ padding: '2rem' }}>
-            <div className='grid' style={{ width: '768px' }}>
+            <div className='Grid' style={{ width: '768px' }}>
                 <div className='a'>
-                    hello world
+                    <p class="has-text-centered has-text-black">
+                        The quickest car in the world, with record-setting<br />
+                        acceleration, range and performance.
+                    </p>
                 </div>
                 <div className='b'>
-                    hello world
+                    <p>hello world</p>
                 </div>
                 <div className='c'>
-                    hello world
+                    <p>hello world</p>
                 </div>
                 <div className='d'>
-                    hello world
+                    <p>hello world</p>
                 </div>
                 <div className='e'>
-                    hello world
+                    <p>hello world</p>
                 </div>
             </div>
         </footer>
