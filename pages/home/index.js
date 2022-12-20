@@ -7,6 +7,7 @@ import Footer from '../../src/components/footer';
 const Home = () => {
     return (
         <div className="hero is-fullheight">
+        {/* <img src="https://media.discordapp.net/attachments/1040205791686316072/1054810312420900944/teslaroadster.jpg?width=759&height=427" alt="" /> */}
             <Nav />
             <div className='hero-body'>
                 <div className='is-overlay has-text-centered single-spaced' style={{ top: '82px' }}>

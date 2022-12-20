@@ -24,3 +24,13 @@
         "a a a a"
         "b c d e";
 }
+
+
+@media (max-width: 512px) {
+    .Grid {
+        grid-template-areas:
+            "a a a"
+            "b c d"
+            "e e e";
+    }
+}

@@ -1,1 +1,5 @@
 @import 'bulma/css/bulma.css';
+
+body {
+    background: url('/Imgs/teslaroadster.jpg')no-repeat center / cover;
+}
